@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        cabin: ['Cabin', 'sans-serif'],
-        inter: ['"Inter"', 'sans-serif']
+        pacifico: ['Pacifico', 'scursive']
       }
     }
   },

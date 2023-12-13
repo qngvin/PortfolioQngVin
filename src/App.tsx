@@ -1,10 +1,12 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Guest from './screens/Guest'
 
 function App() {
   return (
-    <div>
-      <h1>Hello Word</h1>
-    </div>
+    <Routes>
+      <Route path='/' element={<Guest />} />
+    </Routes>
   )
 }
 
