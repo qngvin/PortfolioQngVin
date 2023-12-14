@@ -52,10 +52,10 @@ function BoxAnimation() {
         onPointerEnter={(event) => (event.stopPropagation(), setIsHovered(true))}
         onPointerLeave={() => setIsHovered(false)}
         onClick={() => setIsClick(!isClick)}
-        scale={isClick ? 1.5 : 1}
+        scale={isClick ? 1.5 : 1.2}
       >
         <sphereGeometry args={size} />
-        <meshStandardMaterial color={isHovered ? 'orange' : 'white'} wireframe />
+        <meshStandardMaterial color={isHovered ? 'orange' : `${color}`} wireframe />
       </mesh>
     )
   }
@@ -82,7 +82,7 @@ function BoxAnimation() {
 
       {/* <Cube position={[0, 0, 0]} size={[1, 1, 1]} color={'green'} />  */}
       {/* <TorusKnot position={[-2, 0, 0]} size={[0.5, 0.1, 1000, 50]} color={'hotpink'} /> */}
-      <Sphere position={[0, 0, 0]} size={[1, 20, 20]} color={'orange'} />
+      <Sphere position={[0, 0, 1]} size={[2, 20, 20]} color={'#8C908E'} />
       <OrbitControls enableZoom={false} />
     </Canvas>
   )
