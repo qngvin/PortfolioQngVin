@@ -38,7 +38,7 @@ function BoxAnimation() {
   }) => {
     const ref = useRef<any>()
     const [isHovered, setIsHovered] = useState(false)
-    const [isClick, setIsClick] = useState(false)
+    // const [isClick, setIsClick] = useState(false)
     useFrame((state, delta) => {
       const speed = isHovered ? 1 : 0.2
       if (ref.current) {
@@ -51,8 +51,8 @@ function BoxAnimation() {
         ref={ref}
         onPointerEnter={(event) => (event.stopPropagation(), setIsHovered(true))}
         onPointerLeave={() => setIsHovered(false)}
-        onClick={() => setIsClick(!isClick)}
-        scale={isClick ? 1.5 : 1.2}
+        // onClick={() => setIsClick(!isClick)}
+        // scale={isClick ? 1.5 : 1.2}
       >
         <sphereGeometry args={size} />
         <meshStandardMaterial color={isHovered ? 'orange' : `${color}`} wireframe />

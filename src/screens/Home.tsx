@@ -24,7 +24,7 @@ function Home() {
       <div className=' fixed w-full h-[150px] top-[-5%] left-[10%] translate-x-[-50%]'>
         <Text3d />
       </div>
-      <div className='absolute h-[700px] w-full top-[15%]  loverflow-hidden'>
+      <div className='absolute h-[70%] w-full top-[15%]  loverflow-hidden'>
         <BoxAnimation />
       </div>
     </div>

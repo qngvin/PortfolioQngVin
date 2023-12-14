@@ -1,4 +1,5 @@
-import { PiPaperPlaneTilt } from 'react-icons/pi'
+
+import ButtonResuable from '~/resuable/ButtonResuable'
 function Introduction() {
   return (
     <div className='flex flex-col gap-6'>
@@ -6,7 +7,7 @@ function Introduction() {
         <span>Quang Vinh </span>
         <img src='src/assets/icons/wave.png' className='w-16' />
       </h1>
-      <p className='text-white w-full text-[19px] flex items-center gap-6'>
+      <p className='text-[#afafaf] font-medium w-full text-[19px] flex items-center gap-6'>
         <hr className='w-1/5' />
         <span>Front-End Developer</span>
       </p>
@@ -16,10 +17,7 @@ function Introduction() {
       </p>
 
       <div className='mt-8'>
-        <button className='bg-white text-[17px] rounded-[10px] flex items-center gap-2 px-4 py-4 font-medium'>
-          <span>Say Hello </span>
-          <PiPaperPlaneTilt className='text-[20px]' />
-        </button>
+        <ButtonResuable text='Say Hello'/>
       </div>
     </div>
   )
