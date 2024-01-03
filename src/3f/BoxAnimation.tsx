@@ -39,7 +39,7 @@ function BoxAnimation() {
     const ref = useRef<any>()
     const [isHovered, setIsHovered] = useState(false)
     // const [isClick, setIsClick] = useState(false)
-    useFrame((state, delta) => {
+    useFrame((_, delta) => {
       const speed = isHovered ? 1 : 0.2
       if (ref.current) {
         ref.current.rotation.y += delta * speed

@@ -1,7 +1,7 @@
-import React from 'react'
+
 import { PiPaperPlaneTilt } from 'react-icons/pi'
 
-function ButtonResuable({ text, icon }: { text: string; color?: string }) {
+function ButtonResuable({ text }: { text: string; color?: string }) {
   return (
     <button className='relative bg-white text-[17px] rounded-[10px] flex items-center gap-2 px-4 py-4 font-medium overflow-hidden group'>
       <span className='mr-2 z-10'>{text}</span>
