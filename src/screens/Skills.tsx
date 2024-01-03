@@ -1,4 +1,4 @@
-import React from 'react'
+
 import TitleResuable from '~/resuable/TitleResuable'
 
 function Skills() {

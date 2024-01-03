@@ -1,6 +1,6 @@
 import { OrbitControls, Text } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber'
-import React, { useRef } from 'react'
+import  { useRef } from 'react'
 
 function Text3d() {
   function RotationText() {
