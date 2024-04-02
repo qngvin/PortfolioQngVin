@@ -1,5 +1,4 @@
 import ButtonResuable from '~/resuable/ButtonResuable'
-import { PiPaperPlaneTilt } from 'react-icons/pi'
 function Introduction() {
   return (
     <div className='flex flex-col gap-6'>

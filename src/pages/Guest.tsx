@@ -1,5 +1,5 @@
-import Home from '~/screens/Home'
-
+import Home from '../screens/Home'
+import React from 'react'
 function Guest() {
   return (
     <>

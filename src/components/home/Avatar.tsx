@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { motion, useAnimation } from 'framer-motion'
-
+import React from 'react'
 const Avatar = () => {
   const controls = useAnimation()
 

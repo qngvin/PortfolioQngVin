@@ -1,4 +1,5 @@
 import { PiPaperPlaneTilt } from 'react-icons/pi'
+import React from 'react'
 
 function ButtonResuable({ text }: { text: string }) {
   return (
