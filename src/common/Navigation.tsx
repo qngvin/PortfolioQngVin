@@ -1,36 +1,27 @@
-export default function Navigation() {
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId)
-    if (section) {
-      window.scrollTo({
-        top: section.offsetTop,
-        behavior: 'smooth'
-      })
-    }
-  }
-  return (
-    <div className='relative z-[99999] flex items-center justify-end w-full p-28  py-8'>
-      {/* <h1 className='text-white text-[30px] font-pacifico'>v:dev</h1> */}
+import { NavLink } from 'react-router-dom'
 
-      <div className='text-white  font-mina text-[22px] flex gap-10'>
-        <p onClick={() => scrollToSection('home')} className='cursor-pointer'>
+export default function Navigation() {
+  return (
+    <div className='absolute top-0 left-0 z-[99999] flex items-center justify-center w-full p-28  py-4'>
+      <div className='text-white bg-black p-4 px-6 shadow-box_shadow_2 rounded-full  font-mina text-[18px] flex gap-10 backdrop-filter backdrop-blur-xl '>
+        <NavLink to='/' className={({ isActive }) => (isActive ? 'text-yellow_1' : '')}>
           Home
-        </p>
-        <p onClick={() => scrollToSection('about')} className='cursor-pointer'>
+        </NavLink>
+        <NavLink to='/about' className={({ isActive }) => (isActive ? 'text-yellow_1' : '')}>
           About
-        </p>
-        <p onClick={() => scrollToSection('skills')} className='cursor-pointer'>
+        </NavLink>
+        <NavLink to='/skill' className={({ isActive }) => (isActive ? 'text-yellow_1' : '')}>
           Skills
-        </p>
-        <p onClick={() => scrollToSection('services')} className='cursor-pointer'>
+        </NavLink>
+        <NavLink to='/services' className={({ isActive }) => (isActive ? 'text-yellow_1' : '')}>
           Services
-        </p>
-        <p onClick={() => scrollToSection('portfolio')} className='cursor-pointer'>
+        </NavLink>
+        <NavLink to='/portfolio' className={({ isActive }) => (isActive ? 'text-yellow_1' : '')}>
           Portfolio
-        </p>
-        <p onClick={() => scrollToSection('contact')} className='cursor-pointer'>
+        </NavLink>
+        <NavLink to='/contact' className={({ isActive }) => (isActive ? 'text-yellow_1' : '')}>
           Contact
-        </p>
+        </NavLink>
       </div>
     </div>
   )
