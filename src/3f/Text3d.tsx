@@ -19,7 +19,7 @@ function Text3d() {
         scale={1.5}
         color={'white'}
         anchorX={'center'}
-        font="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+        font={'src/assets/fonts/Pacifico-Regular.ttf'}
       >
         v:dev
       </Text>
