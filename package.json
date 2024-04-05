@@ -13,6 +13,7 @@
     "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.css|*.scss)\""
   },
   "dependencies": {
+    "@motionone/utils": "^10.17.0",
     "@react-three/drei": "^9.92.1",
     "@react-three/fiber": "^8.15.12",
     "@types/react-router-dom": "^5.3.3",

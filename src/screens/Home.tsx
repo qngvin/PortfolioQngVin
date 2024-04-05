@@ -1,8 +1,9 @@
-
 import BlockReusable from '~/components/home/BlockReusable'
 import BlockIntroduction from '~/components/home/BlockIntroduction'
 import BlockProfile from '~/components/home/BlockProfile'
 import BlockDownload from '~/components/home/BlockDownload'
+import TextInfinite from '~/components/home/TextInfinite'
+import BlockSkill from '~/components/home/BlockSkill'
 function Home() {
   return (
     <div className='h-screen flex justify-center items-center bg-color_2 pt-10'>
@@ -21,13 +22,13 @@ function Home() {
         <BlockIntroduction />
         <div className='grid grid-cols-2 col-span-2 gap-4 h-[22rem]  rounded-[2em]'>
           <div className='col-span-2 flex items-center px-6 h-[4rem] bg-background_2 rounded-[2em]'>
-            <h1>hihi</h1>
+            <TextInfinite />
           </div>
           <BlockReusable title='Credentials' subtitle='MORE ABOUT ME' img='/public/assets/images/IMG_5823.jpg' to='/' />
           <BlockReusable title='Portfolios' subtitle='SHOWCASE' img='/public/assets/images/IMG_5823.jpg' to='/' />
         </div>
-        <BlockDownload title='Download' subtitle='MY CV' img='/public/vite.svg' />
-        <div className='col-span-2 h-[16em] bg-background_2 rounded-[2em]'></div>
+        <BlockDownload title='Download' subtitle='MY CV' img='/public/assets/images/IMG_5823.jpg' />
+        <BlockSkill />
         <BlockProfile />
       </div>
       {/* <div className=' fixed w-full h-[150px] top-[-5%] left-[10%] translate-x-[-50%]'>
