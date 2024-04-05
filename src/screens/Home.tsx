@@ -17,7 +17,6 @@ function Home() {
           <Avatar />
         </div>
       </div> */}
-      <img className='w-[400px] h-[400px] ' src='/public/assets/images/IMG_5823.jpg' />
       <div className='grid grid-cols-4 gap-4 px-28 w-full relative z-[9999]'>
         <BlockIntroduction />
         <div className='grid grid-cols-2 col-span-2 gap-4 h-[22rem]  rounded-[2em]'>
