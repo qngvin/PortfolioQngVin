@@ -3,7 +3,7 @@ import './App.css'
 import Navigation from './common/Navigation'
 import Guest from './pages/Guest'
 import Skills from './screens/Skills'
-import React from 'react'
+
 import About from './screens/About'
 
 function App() {

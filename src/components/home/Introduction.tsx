@@ -8,7 +8,7 @@ function Introduction() {
         <img src='src/assets/icons/wave.png' className='w-16' />
       </h1>
       <p className='text-[#afafaf] font-medium w-full text-[19px] flex items-center gap-6'>
-        <hr className='w-1/5' />
+        <hr className='w-1/5 ' />
         <span>Front-End Developer</span>
       </p>
       <p className='text-black text-[17px]'>
