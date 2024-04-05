@@ -1,8 +1,4 @@
-// import BoxAnimation from '~/3f/BoxAnimation'
-// import Text3d from '~/3f/Text3d'
-// import Avatar from '../components/home/Avatar'
-// import Social from '../components/home/Social'
-// import Introduction from '../components/home/Introduction'
+
 import BlockReusable from '~/components/home/BlockReusable'
 import BlockIntroduction from '~/components/home/BlockIntroduction'
 import BlockProfile from '~/components/home/BlockProfile'
