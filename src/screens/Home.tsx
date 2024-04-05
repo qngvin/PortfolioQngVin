@@ -26,7 +26,7 @@ function Home() {
           <BlockReusable title='Credentials' subtitle='MORE ABOUT ME' img='/public/assets/images/IMG_5823.jpg' to='/' />
           <BlockReusable title='Portfolios' subtitle='SHOWCASE' img='/public/assets/images/IMG_5823.jpg' to='/' />
         </div>
-        <BlockDownload title='Download' subtitle='MY CV' img='public/assets/images/IMG_5823.jpg' />
+        <BlockDownload title='Download' subtitle='MY CV' img='/public/vite.svg' />
         <div className='col-span-2 h-[16em] bg-background_2 rounded-[2em]'></div>
         <BlockProfile />
       </div>
