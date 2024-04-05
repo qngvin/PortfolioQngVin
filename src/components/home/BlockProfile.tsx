@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { HiMiniChevronDoubleRight } from 'react-icons/hi2'
 import { FaInstagram, FaFacebook, FaGithub } from 'react-icons/fa'
 export default function BlockProfile() {
