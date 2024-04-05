@@ -14,25 +14,26 @@ export default function BlockProfile() {
           href='https://www.facebook.com/hniv.gnauqnart'
           target='_blank'
           rel='noopener noreferrer'
-          className='rounded-full border border-solid border-border_color_2 p-4 bg-color_bg_icon'
+          className='rounded-full border border-solid border-border_color_2 p-4 bg-color_bg_icon text-white transition duration-300 ease-in-out hover:bg-white hover:text-black'
         >
-          <FaFacebook className='text-white text-[2rem]' />
+          <FaFacebook className=' text-[2rem]' />
         </a>
+
         <a
           href='https://www.instagram.com/qng.vin/'
           target='_blank'
           rel='noopener noreferrer'
-          className='rounded-full border border-solid border-border_color_2 p-4 bg-color_bg_icon'
+          className='rounded-full border border-solid border-border_color_2 p-4 bg-color_bg_icon text-white transition duration-300 ease-in-out hover:bg-white hover:text-black'
         >
-          <FaInstagram className='text-white text-[2rem]' />
+          <FaInstagram className='text-[2rem]' />
         </a>
         <a
           href='https://github.com/qngvin'
           target='_blank'
           rel='noopener noreferrer'
-          className='rounded-full border border-solid border-border_color_2 p-4 bg-color_bg_icon'
+          className='rounded-full border border-solid border-border_color_2 p-4 bg-color_bg_icon text-white transition duration-300 ease-in-out hover:bg-white hover:text-black'
         >
-          <FaGithub className='text-white text-[2rem]' />
+          <FaGithub className=' text-[2rem]' />
         </a>
       </div>
       <div className={`flex  justify-between ${isHovered ? 'items-center' : 'items-end '} `}>

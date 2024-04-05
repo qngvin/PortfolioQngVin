@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { HiMiniChevronDoubleRight } from 'react-icons/hi2'
+import { Link } from 'react-router-dom'
 export default function BlockIntroduction() {
   const [isHovered, setIsHovered] = useState(false)
   return (
-    <div
+    <Link
+      to='about'
       className='flex items-center col-span-2 h-[21.5em] bg-background_2 rounded-[2em] p-7'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -35,6 +37,6 @@ export default function BlockIntroduction() {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
