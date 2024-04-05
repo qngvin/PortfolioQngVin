@@ -35,7 +35,7 @@ export default function BlockProfile() {
           <FaGithub className='text-white text-[2rem]' />
         </a>
       </div>
-      <div className='flex items-center justify-between'>
+      <div className={`flex  justify-between ${isHovered ? 'items-center' : 'items-end '} `}>
         <div className='flex flex-col gap-1'>
           <p className='text-[0.7rem] font-inter text-[#ffffff75] '>STAY WITH ME</p>
           <h1 className='text-white text-[20px] font-mina font-regular   '>Profile</h1>
