@@ -14,7 +14,7 @@ export default function BlockIntroduction() {
         <div
           className='w-full h-full rounded-tl-[1.5em] rounded-br-[1.5em]'
           style={{
-            backgroundImage: `url('/public/assets/images/IMG_5823.jpg')`,
+            backgroundImage: `url('/images/IMG_5823.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}

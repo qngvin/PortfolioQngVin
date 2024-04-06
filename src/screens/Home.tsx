@@ -24,15 +24,10 @@ function Home() {
           <div className='col-span-2 flex items-center px-6 h-[4rem] bg-background_2 rounded-[2em]'>
             <TextInfinite />
           </div>
-          <BlockReusable
-            title='Credentials'
-            subtitle='MORE ABOUT ME'
-            img='/public/assests/images/IMG_5823.jpg'
-            to='/'
-          />
-          <BlockReusable title='Portfolios' subtitle='SHOWCASE' img='/public/assests/images/IMG_5823.jpg' to='/' />
+          <BlockReusable title='Credentials' subtitle='MORE ABOUT ME' img='/images/IMG_5823.jpg' to='/' />
+          <BlockReusable title='Portfolios' subtitle='SHOWCASE' img='/images/IMG_5823.jpg' to='/' />
         </div>
-        <BlockDownload title='Download' subtitle='MY CV' img='/public/assests/images/IMG_5823.jpg' />
+        <BlockDownload title='Download' subtitle='MY CV' img='/images/IMG_5823.jpg' />
         <BlockSkill />
         <BlockProfile />
       </div>
