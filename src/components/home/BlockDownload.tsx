@@ -10,7 +10,7 @@ interface BlockReusableProps {
 export default function BlockDownload({ title, subtitle, img }: BlockReusableProps) {
   const [isHovered, setIsHovered] = useState(false)
   const onClickDownLoad = () => {
-    fetch('/public/assests/images/Trần Quang Vinh.pdf').then((response) => {
+    fetch('/images/Trần Quang Vinh.pdf').then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob)
 
