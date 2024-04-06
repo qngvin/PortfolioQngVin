@@ -25,7 +25,7 @@ function Home() {
             <TextInfinite />
           </div>
           <BlockReusable title='Credentials' subtitle='MORE ABOUT ME' img='/images/IMG_5823.jpg' to='/' />
-          <BlockReusable title='Portfolios' subtitle='SHOWCASE' img='/images/react.svg' to='/' />
+          <BlockReusable title='Portfolios' subtitle='SHOWCASE' img='/images/IMG_5823.jpg' to='/' />
         </div>
         <BlockDownload title='Download' subtitle='MY CV' img='/images/IMG_5823.jpg' />
         <BlockSkill />
