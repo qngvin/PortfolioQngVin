@@ -12,7 +12,7 @@ export default function BlockSkill() {
       <div className='h-full bg-background_3   flex justify-between items-center gap-4 px-10 rounded-2xl'>
         <img className=' w-20 p-4' src='/public/assests/images/mongodb.svg' />
         <img className='bg-white rounded-full  w-16 p-2' src='/public/assests/images/express.svg' />
-        <img className=' w-20 p-4' src='/public/assests/images/react.svg' />
+        <img className=' w-20 p-4' src='../../../dist/assests/images/react.svg' />
         <img className=' w-20 p-4' src='/public/assests/images/nodejs.svg' />
       </div>
       <div className={`flex  justify-between ${isHovered ? 'items-center' : 'items-end '} `}>
