@@ -32,8 +32,8 @@ function ParallaxText({ baseVelocity = 100 }: ParallaxProps) {
   const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`)
 
   const directionFactor = useRef<number>(1)
-  useAnimationFrame((t, delta) => {
-    let moveBy = directionFactor.current * baseVelocity * (delta / 1000)
+  useAnimationFrame(( delta) => {
+    let moveBy = directionFactor.current * baseVelocity * (delta / 100000)
 
     /**
      * This is what changes the direction of the scroll once we
@@ -80,5 +80,5 @@ function ParallaxText({ baseVelocity = 100 }: ParallaxProps) {
   )
 }
 export default function TextInfinite() {
-  return <ParallaxText baseVelocity={-5}></ParallaxText>
+  return <ParallaxText baseVelocity={-0.3}></ParallaxText>
 }
