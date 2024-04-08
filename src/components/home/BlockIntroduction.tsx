@@ -22,7 +22,7 @@ export default function BlockIntroduction() {
         <div className='flex flex-col  justify-center gap-2 '>
           <div>
             <p className='text-[0.8rem] font-inter text-[#ffffff75]'>A FRONT END DEVLOPER</p>
-            <p className='text-white text-[2.4rem] leading-[1]   '>
+            <p className='text-white font-inter text-[2.4rem] leading-[1]   '>
               Tran
               <br /> Quang Vinh.
             </p>
